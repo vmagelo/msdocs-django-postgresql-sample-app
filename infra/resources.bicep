@@ -193,7 +193,7 @@ resource postgresServer 'Microsoft.DBforPostgreSQL/flexibleServers@2022-01-20-pr
     tier: 'Burstable'
   }
   properties: {
-    version: '14'
+    version: '12'
     administratorLogin: 'django'
     administratorLoginPassword: databasePassword
     storage: {
